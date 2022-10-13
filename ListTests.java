@@ -1,12 +1,14 @@
 import static org.junit.Assert.*;
 import org.junit.*;
+import java.util.ArrayList;
+import java.util.List;
 
-public checkString implements StringChecker<String>{
-
-}
-public class LinkTests {
+public class ListTests {
     @Test
     public void filterTest(){
-        List<String> result = new ArrayList<>();
+        List<String> test = new ArrayList<String>();
+        test.add("vile");
+        test.add("what");
+        assertArrayEquals(test, filter(test, ));
     }
 }
